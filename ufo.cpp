@@ -22,8 +22,9 @@ int main()
             display_misses(misses);
             display_status(incorrect, answer);
         }
-        else{
-            display_status(incorrect,answer);
+        else
+        {
+            display_status(incorrect, answer);
         }
         cout << "Make a guess:\n";
         char myLetter;

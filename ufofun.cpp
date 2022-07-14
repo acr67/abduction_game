@@ -59,9 +59,10 @@ void display_status(std::vector<char> incorrect, std::string answer)
         cout << incorrect[i] << " ";
     }
     cout << "\nCodeword:\n";
+
     for (int j = 0; j < answer.size(); j++)
     {
-        cout << answer[j];// << " ";
+        cout << answer[j]; // << " "; //Decided I no longer wanted a space when printing
     }
     cout << endl;
 }
